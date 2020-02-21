@@ -286,7 +286,7 @@ p.Team-name{
 <div class="mainframe">
 	
 		<div class="Header">
-			<img src="/images/header.jpg" />
+			<img src="https://github.com/charuchandak/myCloud/tree/master/images/header.jpg" />
     	</div>
 		
         <!-- menu START -->
@@ -297,7 +297,7 @@ p.Team-name{
 
                 <!-- Home button -->
 
-                 <a href="index.html" >Home</a>
+                 <a href="https://github.com/charuchandak/myCloud/tree/master/index.html" >Home</a>
 
                 <!-- Home button end -->
 
@@ -319,17 +319,17 @@ p.Team-name{
 
                     	<div class="dropdown-content">
 
-                          <a href="saas.html">Firefox</a>
+                          <a href="https://github.com/charuchandak/myCloud/tree/master/saas.html">Firefox</a>
 
-                          <a href="saas.html">VLC</a>
+                          <a href="https://github.com/charuchandak/myCloud/tree/master/saas.html">VLC</a>
 
-                          <a href="saas.html">MediaPlayer</a>
+                          <a href="https://github.com/charuchandak/myCloud/tree/master/saas.html">MediaPlayer</a>
 
-                          <a href="saas.html">Outlook</a>
+                          <a href="https://github.com/charuchandak/myCloud/tree/master/saas.html">Outlook</a>
 
-                          <a href="saas.html">Adobe</a>
+                          <a href="https://github.com/charuchandak/myCloud/tree/master/saas.html">Adobe</a>
 
-                          <a href="saas.html">C panel</a>
+                          <a href="https://github.com/charuchandak/myCloud/tree/master/saas.html">C panel</a>
 
                     </div>
 
@@ -347,9 +347,9 @@ p.Team-name{
 
 					      <div class="dropdown-content">
 
-                              <a href="nfs.html">Object Storage</a>
+                              <a href="https://github.com/charuchandak/myCloud/tree/master/nfs.html">Object Storage</a>
 
-                              <a href="blockstorages.html">Block Storage</a>
+                              <a href="https://github.com/charuchandak/myCloud/tree/master/blockstorages.html">Block Storage</a>
 
 					</div>
 
@@ -368,7 +368,7 @@ p.Team-name{
 			 <button class="dropbtn">CAAS</button>
 				 <div class="dropdown-content">
 
-                             		 <a href="/scripts/caashome.py">Docker</a>
+                             		 <a href="https://github.com/charuchandak/myCloud/tree/master/scripts/caashome.py">Docker</a>
 
 
 					</div>	
@@ -390,7 +390,7 @@ p.Team-name{
 		   <button class="dropbtn">IAAS</button>
 			   <div class="dropdown-content">
 
-                              <a href="newiaas.html">Remote OS</a>
+                              <a href="https://github.com/charuchandak/myCloud/tree/master/newiaas.html">Remote OS</a>
 
 
 					</div>		
@@ -541,11 +541,11 @@ print"""
 	<div class="footer_links">
 				<a href="#">Home - </a>
 				
-				<a href="/webcontent/About_Us.html">About - </a>
+				<a href="https://github.com/charuchandak/myCloud/tree/master/About_Us.html">About - </a>
 				
 				<a href="#">Faq - </a>
 				
-				<a href="/webcontent/Contact_us.html">Contact </a>
+				<a href="https://github.com/charuchandak/myCloud/tree/master/Contact_us.html">Contact </a>
 			
 		
 	</div>
