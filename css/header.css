@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Header START*/
+.Header{
+	width:1024px;
+	height:150px;
+	margin:auto;
+	background: #FFFFFF;
+}
+/*Header END */

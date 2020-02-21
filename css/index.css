@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*slider*/
+.slider{
+	width:1024px;
+	height:370px;
+	align-content:center;
+	background:#FFFFFF;
+	padding:0px;
+}	
+
+
+/* slider end */
+
+/* Frame start*/
+
+.frames iframe{
+	align-content:center;
+	margin:10px;
+	border:0;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 20);
+}
+
+/* Frame End */

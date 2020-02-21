@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Content START */
+			
+/*Heading START*/
+
+.heading{
+	padding: 5px 10px;
+	}
+
+/*Heading END*/
+
+/* Text START */
+.text{
+	padding: 5px 10px}
+
+/* Text END */
+/* Button Start */
+.Text-Button{
+	margin:auto;
+	}
+
+/* Button END */
+/*Content END*/

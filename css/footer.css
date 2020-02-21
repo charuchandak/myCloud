@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Footer */
+
+footer{
+	background-color:#292C2F;
+	text-align:center;
+	
+}
+p.our-motto{
+	padding: 15px;
+	color:#000000;
+	margin:auto;	
+}
+
+
+.footer_links{
+	text-align:center;
+	font-weight: bold;
+	color: #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer_links a{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.footer_links a:hover{
+	color:#4CAF50;
+	text-decoration: none;
+}
+
+.footer_links a:focus{
+	color:#4CAF50;
+	text-decoration: none;
+}
+
+p.Team-name{
+	
+	padding:10px;
+	color:#000000;
+	margin:auto;
+}
+
+/* Footer End*/ 

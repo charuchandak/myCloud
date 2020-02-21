@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* BodyBackgound*/
+
+body {
+
+  background: #A9A9A9 ; /* fallback for old browsers */
+  font-family: "Roboto", sans-serif;
+
+}
+
+.mainframe{
+	position: relative;
+	background: #FFFFFF;	
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 20), 0 5px 5px 0 rgba(0, 	0, 0, 0.24);
+	width:1024px;
+	margin:auto;
+
+}
+
+/*body Background END */
+
