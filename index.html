@@ -1,0 +1,230 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="/css/mainframe.css">
+<link rel="stylesheet" type="text/css" href="/css/header.css">
+<link rel="stylesheet" type="text/css" href="/css/menu.css">
+<link rel="stylesheet" type="text/css" href="/css/index.css">
+<link rel="stylesheet" type="text/css" href="/css/footer.css">
+
+<title>Home Page</title>
+</head>
+
+<!-- Body START -->
+<body onLoad="startSlider()">
+
+<div class="mainframe">
+	
+		<div class="Header">
+			<img src="/images/header.jpg" />
+    	</div>
+		
+        <!-- menu START -->
+            
+   	 	<div class="menu">
+
+        
+
+                <!-- Home button -->
+
+                 <a href="index.html" >Home</a>
+
+                <!-- Home button end -->
+
+                
+
+                <!-- News button -->
+
+                 <a href="#news">News</a>
+
+         		<!-- News button end -->	
+
+              	
+
+                <!-- SAAS button -->
+
+		    	 <div class="dropdown">
+
+                    <button class="dropbtn">SAAS</button>
+
+                    	<div class="dropdown-content">
+
+                          <a href="saas.html">Firefox</a>
+
+                          <a href="saas.html">VLC</a>
+
+                          <a href="saas.html">MediaPlayer</a>
+
+                          <a href="saas.html">Outlook</a>
+
+                          <a href="saas.html">Adobe</a>
+
+                          <a href="saas.html">C panel</a>
+
+                    </div>
+
+                 </div> 
+
+				<!-- SAAS button end-->
+
+                
+
+                <!-- STAAS button -->
+
+		  		 <div class="dropdown">
+
+		  			  <button class="dropbtn">STAAS</button>
+
+					      <div class="dropdown-content">
+
+                              <a href="nfs.html">Object Storage</a>
+
+                              <a href="blockstorages.html">Block Storage</a>
+
+					</div>
+
+		 	 	 </div>
+
+                <!-- STAAS button end--> 
+
+                
+
+		<!-- CAAS button -->
+
+                 <div class="dropdown">
+
+			
+
+			 <button class="dropbtn">CAAS</button>
+				 <div class="dropdown-content">
+
+                             		 <a href="/scripts/caashome.py">Docker</a>
+
+
+					</div>	
+
+				
+
+		 </div>
+
+                 <!-- CAAS button end-->
+
+                 
+
+                 <!-- IAAS button -->
+
+        
+
+	         <div class="dropdown">
+
+		   <button class="dropbtn">IAAS</button>
+			   <div class="dropdown-content">
+
+                              <a href="newiaas.html">Remote OS</a>
+
+
+					</div>		
+
+
+	
+
+		 </div> 
+
+        
+
+       	 	 <!-- IAAS button end-->
+
+	                 
+
+                 <!-- NAAS button -->
+
+                 <div class="dropdown">
+
+		  			  <button class="dropbtn">NAAS</button>
+
+				 </div>
+
+                 <!-- NAAS button end-->
+
+                 
+
+			</div>
+        
+    	<!-- menu end -->
+        
+    	<!-- slider Start-->
+    	
+        <div class="slider">
+        
+        	<!-- JAVA SCRIPT slider-->
+		
+        	<script type="text/javascript">
+				var c=1,obj;
+                function startSlider()
+                {
+                    var img=document.getElementById("slider_images");
+                    if(c<5)
+                    c++;
+                    else
+                    c=1;
+                    img.src="/images/"+c+".jpg";
+                    obj=setTimeout("startSlider();",4000);
+                    
+                }
+                function stopSlider(){
+					clearTimeout(obj);
+				}
+			    
+            </script>
+			
+			<!-- JAVA SCRIPT slider END-->
+			
+                <img src="/images/1.jpg"  alt="no slider" id="slider_images" name="slider_images" onmouseover="stopSlider();" onmouseout="startSlider();"  />        		 
+			</div>
+         
+     	 <!-- slider end-->
+         
+         <!-- frame START -->
+         
+         <div class="frames">
+         	
+            
+            <iframe src="saas_iframe.html" height="200px" width="31%"></iframe>
+            <iframe src="staas_iframe.html" height="200px" width="31%"></iframe>
+            <iframe src="iaas_iframe.html" height="200px" width="31%" ></iframe>
+
+			
+            <iframe src="paas_iframe.html" height="200px" width="31%" ></iframe>
+            <iframe src="naas_iframe.html" height="200px" width="31%" ></iframe>
+            <iframe src="caas_iframe.html" height="200px" width="31%" ></iframe>     
+		
+		</div>
+    	 
+         <!-- frame END -->
+         
+         <!-- Footer START -->
+         
+        	<footer class="footer">
+
+			<p class="our-motto"><b>Use Anywhere On Any Ware</b></p>
+
+			<div class="footer_links">
+				<a href="index.html">Home</a>
+				-
+				<a href="About_Us.html">About</a>
+				-
+				<a href="#">Faq</a>
+				-
+				<a href="Contact_us.html">Contact</a>
+			</div>
+
+			<p class="Team-name">Red Sprites &copy; 2017</p>
+
+		</footer>
+
+         <!-- Footer END -->  
+	
+</div>
+</body>
+<!-- Body END -->
+</html>
